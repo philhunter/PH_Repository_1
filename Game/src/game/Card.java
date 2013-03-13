@@ -6,14 +6,14 @@
 package practingprogramming;
 import javax.swing.ImageIcon;
 
-public class CARD {
+public class Card {
     private int value;
     private String suite, rank;
     private int x;
     private int y;
     private ImageIcon image;    
     
-    public CARD(String suite, String rank, int value, ImageIcon image){
+    public Card(String suite, String rank, int value, ImageIcon image){
     
         this.suite = suite;
         this.rank = rank;
